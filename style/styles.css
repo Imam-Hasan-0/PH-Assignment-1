@@ -6,6 +6,8 @@
     padding: 0;
 }
 
+/* hero section start here */
+
 #hero{
     width: 1358px;
     height: 613px;
@@ -66,3 +68,108 @@
     line-height: 18px;
     margin: 10px 0;
 }
+
+/* hero section end here */
+
+/* reason section start here */
+
+#reason{
+    width: 1072px;
+    height: 1311px;
+    border: 3px solid red;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 69px 143px 69px 139px;
+}
+
+.reason-container{
+    width: 889px;
+    height: 1161px;
+    border: 3px solid blue;
+    margin: 75px 91px;
+    text-align: center;
+}
+
+.reason-title-desc{
+    /* width: 889px;
+    height: 1161px;
+    border: 3px solid blue;
+    margin: 75px 91px;
+    text-align: center; */
+}
+
+.reason-container .reason-title{
+    margin: 10px auto;
+    color: rgb(13, 19, 33);
+    font-size: 26px;
+    font-weight: 660;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.reason-container .reason-desc{
+    font-size: 14px;
+    margin: 18px 26px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* reason section end here */
+
+/* inspiration section start here */
+
+#inspiration{
+
+}
+
+.inspiration-container{
+    width: 1072px;
+    height: 730px;
+    border: 3px solid red;
+    margin: 82px auto;
+}
+.inspiration-text{
+    text-align: center;
+}
+
+.inspiration-text .inspiration-title{
+    margin: 20px 135px;
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 750;
+    line-height: 34px;
+}
+
+.inspiration-text .inspiration-desc{
+    margin: 0 135px 20px 135px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 360;
+    line-height: 22px;
+}
+
+.inspiration-video{
+    width: 1072px;
+    height: 577px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration-video iframe{
+    border-radius: 16px;
+    width: 1011px;
+    height: 517px;
+}
+
+/* inspiration section end here */
